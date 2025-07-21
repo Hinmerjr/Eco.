@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eco de Hinmer</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="theme-color" content="#ff5555" />
+</head>
+<body>
+  <div id="app">
+    <!-- 🔐 Pantalla de ingreso -->
+    <div class="container" id="login">
+      <h1>🔐 Eco de Hinmer</h1>
+      <p>Ingresa la clave secreta</p>
+      <input type="password" id="clave" placeholder="Clave..." />
+      <button onclick="verificarClave()">Entrar</button>
+      <p id="error" class="error"></p>
+    </div>
+
+    <!-- 🌅 Pantalla de mensaje -->
+    <div class="container" id="mensaje" style="display: none">
+      <h2>🌅 Tu mensaje de hoy</h2>
+      <p id="texto"></p>
+      <button onclick="hablar()">🔊 Escuchar</button>
+      <p id="numerodia" class="info"></p>
+
+      <!-- 📝 Comentario del día -->
+      <div id="comentario-container">
+        <h3>🖋️ Tu pensamiento para hoy</h3>
+        <textarea id="comentario" placeholder="Escribe aquí tu palabra diaria..." rows="4"></textarea>
+        <br />
+        <button onclick="guardarComentario()">Guardar</button>
+        <p id="comentarioGuardado"></p>
+      </div>
+
+      <!-- 🧹 Botón especial (solo Josue) -->
+      <button onclick="borrarComentarioPrivado()" style="display: none" id="botonBorrar">
+        🧹 Borrar comentario de hoy
+      </button>
+    </div>
+  </div>
+
+  <!-- ✅ Enlace correcto y asegurado -->
+  <script src="script.js" defer></script>
+</body>
+</html>
