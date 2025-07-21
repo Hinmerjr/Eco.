@@ -1,7 +1,7 @@
 {
   "name": "Eco de Hinmer",
   "short_name": "EcoHinmer",
-  "start_url": "./",
+  "start_url": "./eco.html",
   "display": "standalone",
   "background_color": "#1e1e1e",
   "theme_color": "#ff5555",
