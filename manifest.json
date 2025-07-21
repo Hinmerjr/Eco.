@@ -1,0 +1,15 @@
+{
+  "name": "Eco de Hinmer",
+  "short_name": "EcoHinmer",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#1e1e1e",
+  "theme_color": "#ff5555",
+  "icons": [
+    {
+      "src": "icon512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
