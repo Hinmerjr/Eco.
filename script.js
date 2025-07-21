@@ -2,7 +2,7 @@ const mensajes = [
   { mensaje: "🌱 Hoy comienza tu camino." },
   { mensaje: "🌿 Cada palabra tuya es semilla." },
   { mensaje: "🔥 La luz está dentro de ti." }
-  // 👉 Agrega hasta 165 mensajes aquí
+  // 🔁 Agrega hasta el mensaje 165
 ];
 
 function verificarClave() {
